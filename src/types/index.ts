@@ -1,4 +1,4 @@
-import { NavlinksTypes } from "./navlinks.types";
+import type {  NavlinksTypes } from "./navlinks.types";
 
 export type {
     NavlinksTypes

@@ -1,12 +1,11 @@
-import { useMotionValue, useScroll, useSpring, useTransform } from "motion/react"
-import React, { useEffect, useRef } from "react";
+import { useMotionValue,  useSpring, useTransform } from "motion/react"
+import React, { useEffect, } from "react";
 import { motion } from "motion/react";
 import bg from "../../../assets/image/modebg.png"
 import model from "../../../assets/image/model png.png"
 
 
 const HeroImage: React.FC = () => {
-    const containerRef = useRef<HTMLDivElement>(null);
     const mouseX = useMotionValue(0);
     const mouseY = useMotionValue(0);
 

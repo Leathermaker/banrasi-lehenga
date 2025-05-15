@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 import { faqs } from '../../../data/contact';
 import { ChevronDown } from 'lucide-react';
 
-const Faq:React.FC = () => {
+const ContactFaq:React.FC = () => {
     const [activeAccordion, setActiveAccordion] = React.useState<number | null>(null)
 
     const toggleAccordion = (index: number) => {
@@ -53,4 +53,4 @@ const Faq:React.FC = () => {
   )
 }
 
-export default Faq
+export default ContactFaq

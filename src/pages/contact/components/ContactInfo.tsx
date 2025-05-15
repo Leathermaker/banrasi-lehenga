@@ -1,4 +1,4 @@
-import { Clock, Facebook, Instagram, Mail, MapPin, Phone, Send, Twitter, Youtube } from 'lucide-react'
+import { Clock, Facebook, Instagram, Mail, MapPin, Phone,  Twitter, Youtube } from 'lucide-react'
 import React from 'react'
 import { motion } from 'motion/react'
 

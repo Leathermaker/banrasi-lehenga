@@ -1,5 +1,4 @@
 import { motion } from "motion/react";
-import { PaddingWrapper } from "../../../components";
 import HeroImage from "./HeroImage";
 export default function Hero() {
   return (
